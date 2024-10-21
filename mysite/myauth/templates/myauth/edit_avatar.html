@@ -1,0 +1,13 @@
+{% extends 'myauth/base.html' %}
+
+{% block title %}Edit Avatar{% endblock %}
+
+{% block body %}
+    <h1>Edit Avatar</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+    </form>
+<a href="{% url 'myauth:about-me'  %}">Back to profile</a>
+{% endblock %}

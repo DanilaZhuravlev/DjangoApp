@@ -1,0 +1,58 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "Laptop (new)",
+      "description": "�������\r\nDesktop",
+      "price": "100000.00",
+      "discount": 10,
+      "created_at": "2024-08-15T11:46:50.702Z",
+      "archived": false,
+      "created_by": 1,
+      "preview": ""
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Desktop",
+      "description": "������ � ���������",
+      "price": "200000.00",
+      "discount": 0,
+      "created_at": "2024-08-15T11:46:50.702Z",
+      "archived": false,
+      "created_by": 1,
+      "preview": ""
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 4,
+    "fields": {
+      "name": "Phone2",
+      "description": "New Phone",
+      "price": "1234.00",
+      "discount": 10,
+      "created_at": "2024-09-23T07:44:05.518Z",
+      "archived": false,
+      "created_by": 1,
+      "preview": ""
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "PC",
+      "description": "new PC",
+      "price": "10.00",
+      "discount": 2,
+      "created_at": "2024-10-04T08:52:08.068Z",
+      "archived": false,
+      "created_by": 1,
+      "preview": ""
+    }
+  }
+]

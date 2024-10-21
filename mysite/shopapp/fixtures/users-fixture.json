@@ -1,0 +1,103 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$4nvyS0nMBbnoBQOcn1OIQh$/zNLnYDgd8/w++Z6rPWq/0Tt1iL1U9G5jfFVyPyGeWo=",
+    "last_login": "2024-09-26T12:44:11.859Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "Danila",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-07-24T13:29:40Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$2cwx4HJP5Y215XpTpBZfET$HN0Jd4sx8VyVP8WkIobhTrTybNjKdK+4XJfkyBPgjDk=",
+    "last_login": "2024-09-26T07:31:25.464Z",
+    "is_superuser": false,
+    "username": "Sam",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-09-25T08:29:03.140Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$8d2yj9M83LoeC2cRAKDe2d$wYRgJKCQsAyO+gd6EtAxXcERy8PCuMrY3djOL0UFKjI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Nick",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-09-25T08:36:26.587Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$vphKuVjy4lFKBHomHeStdd$aibl1xsLjyj4FD3FW8GNbwGbdqBesRrH+cBPArQn9RM=",
+    "last_login": "2024-09-26T07:32:05.049Z",
+    "is_superuser": false,
+    "username": "Dean",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-09-25T08:46:27Z",
+    "groups": [
+      3
+    ],
+    "user_permissions": [
+      4,
+      32,
+      25
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$wMy9MHrn2ohyuz46tsQ0MU$Vp0ynb7U7NXiMc+2HGwMvZtCszkG/u8x9dmF7AUqUqI=",
+    "last_login": "2024-09-25T09:33:58Z",
+    "is_superuser": false,
+    "username": "Ramirez",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-09-25T09:33:57Z",
+    "groups": [
+      4
+    ],
+    "user_permissions": [
+      4,
+      32
+    ]
+  }
+}
+]

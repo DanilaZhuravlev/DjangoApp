@@ -1,0 +1,3 @@
+2024-10-09 12:25:44,638 INFO django.utils.autoreload: Watching for file changes with StatReloader
+2024-10-09 12:35:02,548 WARNING django.request: Not Found: /
+2024-10-09 12:35:03,342 INFO django.utils.autoreload: D:\python-projects\Skillbox\Django5\pythonProject5\DatabaseAndModels\mysite\mysite\settings.py changed, reloading.
