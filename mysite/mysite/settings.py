@@ -37,8 +37,8 @@ SECRET_KEY = getenv(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = getenv('DJANGO_DEBUG', '0') == '1'
 
-ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
-INTERNAL_IPS = ['127.0.0.1'] + getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1'] + getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
+INTERNAL_IPS = ['127.0.0.1', '0.0.0.0']
 
 if DEBUG:
     import socket
