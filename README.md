@@ -1,4 +1,4 @@
-# DjangoApp
+# Online Store Django
 
 ## 📖 Описание проекта
 
